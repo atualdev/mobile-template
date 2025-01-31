@@ -1,6 +1,7 @@
 import React from "react";
-import { StatusBar } from "expo-status-bar";
+import "@/styles/global.css";
 import { Stack } from "expo-router";
+import { StatusBar } from "expo-status-bar";
 
 export default function RootLayout() {
   return (
